@@ -12,6 +12,9 @@ BOT_NAME = 'keralarealty'
 SPIDER_MODULES = ['keralarealty.spiders']
 NEWSPIDER_MODULE = 'keralarealty.spiders'
 
+#Export as CSV Feed
+FEED_FORMAT = "csv"
+FEED_URI = "keralarealty.csv"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'keralarealty (+http://www.yourdomain.com)'
